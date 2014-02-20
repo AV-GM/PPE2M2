@@ -1,2 +1,77 @@
-style
+body
+{
+    background-image: url(bckgrd.jpg) ;
+}
+header
+{
+    background: url(gsb.png) no-repeat ;
+	background-color:white;
+	border-radius: 10px;
+    height: 212px;
+    border: 10px black ;
+    margin: 50px;
+}
+header p
+{
+    font-size: 35px;
+    color:black;
+    text-align: center;
+    margin: auto;
+	padding : 50px;
+}
+nav
+{
+    display: inline-block;
+    background-color: black;
+    text-align: center;
+}
 
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    font-size: 22px;
+    display: inline-block;
+    margin-right: 15px;
+}
+
+footer
+{
+    position:fixed;
+    bottom: 12px;
+    right: 25px;
+    background-color: lightblue;
+    border-radius: 10px;
+	padding-right: 5px;
+    padding-left: 5px;
+	
+}
+section
+{
+   margin: auto;
+   width: 750px;
+   background-color: lightsteelblue;
+   border-radius:15px;
+}
+
+section p,h1,h2
+{
+    text-align: justify;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+section h2
+{
+padding-bottom:15px;
+}
+section h1
+{
+padding-top:25px;
+}
+section p
+{
+padding-bottom:20px;
+}
